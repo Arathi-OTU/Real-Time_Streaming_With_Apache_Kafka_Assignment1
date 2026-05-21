@@ -19,3 +19,5 @@ Steps followed:
 7. Code for Output Consumer (co_stream_consumer.py) was written which reads from predictions and prints each result to the console in a readable format as it arrives.
 8. All the three python files are run on separate terminals start with Streams Processor with command: faust -A co_stream_processor worker -l info, then in another window start consumer with command: python co_stream_consumer.py, then in third window run produder with command: python co_stream_producer.
 9. We can observe the predictions appear in real-time.
+
+Demo Link: https://drive.google.com/file/d/1a7U6PmlCjuIlmdY044XqFAcCvDvp2d4t/view?usp=drive_link
